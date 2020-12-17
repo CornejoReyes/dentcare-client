@@ -42,3 +42,6 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           SOURCE_DIR: 'build'
 
+      - name: Finished
+        run: echo "Deployed successfully!"
+
